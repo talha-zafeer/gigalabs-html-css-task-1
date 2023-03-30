@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: OpenSans;
+}
+
+.section07 {
+  background-color: #31de79;
+  padding: 100px 0;
+}
+
+.section07-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section07-text h4 {
+  /* font-weight: lighter; */
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.section07-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section07-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 30%;
+  padding: 50px 30px;
+  border-radius: 5px;
+}
+
+.section07-card-text p {
+  padding: 20px 0;
+  color: gray;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.section07-card-text h4 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.circle-icon {
+  border-radius: 50%;
+  border: 20px solid #31de79;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -25px;
+}
+.circle-icon i {
+  font-size: 20px;
+  color: white;
+  background-color: #31de79;
+}
+
+.section07-card-text h5 {
+  font-weight: lighter;
+  text-align: center;
+  color: lightgray;
+  font-size: 25px;
+}
+.section07-card-img {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: -120px;
+  border: 10px solid #31de79;
+}
+
+.section07-card-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .section07-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .section07-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 100%;
+    /* padding: 50px 30px; */
+    border-radius: 5px;
+    margin: 50px 0;
+  }
+  .section07-text h4 {
+    padding-bottom: 50px;
+  }
+}
